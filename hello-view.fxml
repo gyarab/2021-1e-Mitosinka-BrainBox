@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" style="-fx-background-color: #90FF00;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.brainboxx.HelloController">
+
+   <children>
+      <Button fx:id="startButton" onAction="#onPlayButtonClick" layoutX="350.0" layoutY="184.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="200.0" style="-fx-background-color: #FFD400;" text="Start">
+         <font>
+            <Font size="38.0" />
+         </font>
+      </Button>
+      <Button fx:id="settingsButton" onAction="#onSettingsButtonClick" layoutX="400.0" layoutY="356.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="100.0" style="-fx-background-color: #FFD400;" text="Settings">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="exitButton" layoutX="400.0" layoutY="425.0" mnemonicParsing="false" onAction="#onExitButtonCLick" prefHeight="40.0" prefWidth="100.0" style="-fx-background-color: #FFD400;" text="Exit">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Label fx:id="closingScreen" layoutX="359.0" layoutY="275.0" prefHeight="50.0" prefWidth="183.0" text="Closing application..." textAlignment="CENTER" visible="false">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>
