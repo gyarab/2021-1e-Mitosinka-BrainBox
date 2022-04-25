@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane fx:id="mainScene" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" style="-fx-background-color: #EAFF93;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.brainboxproject.HelloController">
+   <children>
+      <Button fx:id="playButton" layoutX="390.0" layoutY="171.0" mnemonicParsing="false" onAction="#onPlayButtonClick" prefHeight="60.0" prefWidth="120.0" style="-fx-background-color: #FFE586;" text="Play">
+         <font>
+            <Font size="22.0" />
+         </font></Button>
+      <Button fx:id="settingsButton" layoutX="406.0" layoutY="315.0" mnemonicParsing="false" onAction="#onSettingsButtonClick" prefHeight="40.0" prefWidth="90.0" style="-fx-background-color: #FFE586;" text="Settings">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+      <Button fx:id="exitButton" layoutX="405.0" layoutY="396.0" mnemonicParsing="false" onAction="#onExitButtonClick" prefHeight="40.0" prefWidth="90.0" style="-fx-background-color: #FFE586;" text="Exit">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+      <ImageView fx:id="eiffelTower" fitHeight="600.0" fitWidth="900.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@photo-of-eiffel-tower-739407-1024x683.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="burjKhalifa" fitHeight="531.0" fitWidth="900.0" pickOnBounds="true" preserveRatio="true" scaleY="1.4" visible="false">
+         <image>
+            <Image url="@amazing-buildings-burj-khalifa-dubai-sunset-1080P-wallpaper.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="goldenGate" fitHeight="700.0" fitWidth="900.0" layoutY="-75.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@1200px-GoldenGateBridge-001.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="statueOfLiberty" fitHeight="609.0" fitWidth="810.0" layoutX="45.0" layoutY="-14.0" pickOnBounds="true" preserveRatio="true" scaleX="1.11" scaleY="1.1" visible="false">
+         <image>
+            <Image url="@Statue_of_liberty.JPEG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="petra" fitHeight="600.0" fitWidth="900.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true" scaleY="1.2" visible="false">
+         <image>
+            <Image url="@blog-azamara-club-cruises-petra_9.jpg" />
+         </image>
+      </ImageView>
+      <Pane fx:id="questionBackground" prefHeight="600.0" prefWidth="900.0" style="-fx-background-color: #B4B4B4;" visible="false" />
+      <Label fx:id="scoreLabel" alignment="CENTER" layoutX="61.0" layoutY="103.0" prefHeight="129.0" prefWidth="777.0" text="scoreLabel" textAlignment="CENTER" visible="false">
+         <font>
+            <Font size="38.0" />
+         </font>
+      </Label>
+      <Label fx:id="question" alignment="CENTER" layoutX="255.0" layoutY="184.0" prefHeight="34.0" prefWidth="392.0" text="questionLabel" textAlignment="CENTER" visible="false">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <Button fx:id="buttonA" layoutX="298.0" layoutY="251.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="304.0" text="A" visible="false" />
+      <Button fx:id="buttonB" layoutX="299.0" layoutY="307.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="304.0" text="B" visible="false" />
+      <Button fx:id="buttonC" layoutX="299.0" layoutY="362.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="304.0" text="C" visible="false" />
+      <Button fx:id="buttonD" layoutX="299.0" layoutY="423.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="304.0" text="D" visible="false" />
+      <Label fx:id="answer" alignment="CENTER" layoutX="362.0" layoutY="44.0" prefHeight="77.0" prefWidth="178.0" text="Answer" textAlignment="CENTER" visible="false">
+         <font>
+            <Font size="50.0" />
+         </font>
+      </Label>
+      <Button fx:id="buttonNext" layoutX="845.0" layoutY="561.0" mnemonicParsing="false" text="Next" visible="false" />
+      <Button fx:id="buttonNextPicture2" layoutX="845.0" layoutY="561.0" mnemonicParsing="false" onAction="#onNextButton2Click" text="Next" visible="false" />
+      <Button fx:id="buttonNextPicture" layoutX="845.0" layoutY="561.0" mnemonicParsing="false" onAction="#onNextButtonClick" text="Next" visible="false" />
+      <Button fx:id="buttonNextPicture3" layoutX="845.0" layoutY="561.0" mnemonicParsing="false" onAction="#onNextButton3Click" text="Next" visible="false" />
+      <Button fx:id="buttonNextPicture4" layoutX="845.0" layoutY="561.0" mnemonicParsing="false" onAction="#onNextButton4Click" text="Next" visible="false" />
+      <Button fx:id="buttonNextPicture5" layoutX="845.0" layoutY="561.0" mnemonicParsing="false" onAction="#onNextButton5Click" text="Next" visible="false" />
+   </children>
+</Pane>
