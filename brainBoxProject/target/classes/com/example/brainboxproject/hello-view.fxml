@@ -11,7 +11,7 @@
          <font>
             <Font size="22.0" />
          </font></Button>
-      <Button fx:id="settingsButton" layoutX="406.0" layoutY="315.0" mnemonicParsing="false" onAction="#onSettingsButtonClick" prefHeight="40.0" prefWidth="90.0" style="-fx-background-color: #FFE586;" text="Settings">
+      <Button fx:id="howToPlayButton" layoutX="384.0" layoutY="307.0" mnemonicParsing="false" onAction="#onHowToPlayButtonClick" prefHeight="40.0" prefWidth="134.0" style="-fx-background-color: #FFE586;" text="How to play">
          <font>
             <Font size="18.0" />
          </font></Button>
@@ -48,6 +48,11 @@
       <Label fx:id="scoreLabel" alignment="CENTER" layoutX="61.0" layoutY="103.0" prefHeight="129.0" prefWidth="777.0" text="scoreLabel" textAlignment="CENTER" visible="false">
          <font>
             <Font size="38.0" />
+         </font>
+      </Label>
+      <Label fx:id="howToPlayLabel" alignment="CENTER" layoutX="202.0" layoutY="60.0" prefHeight="158.0" prefWidth="498.0" text="To play Brainbox, press Play button in main menu. Take a careful look at the picture in front of you and press Next button in bottom right corner. You gonna see a question with 4 possible answers. Your task is to press button that answers the question correctly! This repeats untill u see all picutres and answer all questions, then u can play again or press Exit to quit the game." visible="false" wrapText="true">
+         <font>
+            <Font size="17.0" />
          </font>
       </Label>
       <Label fx:id="question" alignment="CENTER" layoutX="255.0" layoutY="184.0" prefHeight="34.0" prefWidth="392.0" text="questionLabel" textAlignment="CENTER" visible="false">

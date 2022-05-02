@@ -32,7 +32,7 @@ public class HelloController {
     public Button playButton;
 
     @FXML
-    public Button settingsButton;
+    public Button howToPlayButton;
 
     @FXML
     public Button exitButton;
@@ -91,10 +91,26 @@ public class HelloController {
     @FXML
     public Label scoreLabel;
 
+    @FXML
+    public Label howToPlayLabel;
+
 
     @FXML
-    public void onSettingsButtonClick(){
-
+    public void onHowToPlayButtonClick(){
+        playButton.setVisible(false);
+        exitButton.setVisible(false);
+        howToPlayButton.setVisible(false);
+        buttonNext.setVisible(true);
+        buttonNext.setText("Back    ");
+        howToPlayLabel.setVisible(true);
+        buttonNext.setOnAction(e -> {
+            playButton.setVisible(true);
+            exitButton.setVisible(true);
+            buttonNext.setText("Next");
+            howToPlayButton.setVisible(true);
+            buttonNext.setVisible(false);
+            howToPlayLabel.setVisible(false);
+        });
     }
 
 
@@ -1945,7 +1961,7 @@ public class HelloController {
             mainScene.setVisible(true);
             playButton.setVisible(true);
             exitButton.setVisible(true);
-            settingsButton.setVisible(true);
+            howToPlayButton.setVisible(true);
             buttonNext.setVisible(false);
             points = 0;
         });
