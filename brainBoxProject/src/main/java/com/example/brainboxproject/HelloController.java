@@ -1723,7 +1723,7 @@ public class HelloController {
                 answer.setText("False!");
                 answer.setTextFill(Color.RED);
                 answer.setVisible(true);
-                buttonNextPicture4.setVisible(true);
+                buttonNextPicture5.setVisible(true);
                 buttonA.setDisable(true);
                 buttonB.setDisable(true);
                 buttonC.setDisable(true);
@@ -1875,7 +1875,7 @@ public class HelloController {
                 answer.setText("False!");
                 answer.setTextFill(Color.RED);
                 answer.setVisible(true);
-                buttonNextPicture4.setVisible(true);
+                buttonNextPicture5.setVisible(true);
                 buttonA.setDisable(true);
                 buttonB.setDisable(true);
                 buttonC.setDisable(true);
