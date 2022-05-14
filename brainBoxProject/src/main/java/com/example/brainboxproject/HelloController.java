@@ -101,7 +101,7 @@ public class HelloController {
         exitButton.setVisible(false);
         howToPlayButton.setVisible(false);
         buttonNext.setVisible(true);
-        buttonNext.setText("Back    ");
+        buttonNext.setText("Back");
         howToPlayLabel.setVisible(true);
         buttonNext.setOnAction(e -> {
             playButton.setVisible(true);
